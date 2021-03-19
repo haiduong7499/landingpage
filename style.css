@@ -1,0 +1,45 @@
+.banner-wrapper{
+    position:relative;
+}
+.banner-wrapper .banner-text{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.banner-wrapper .banner-text p:first-child{
+    color: red;
+    font-size: 36px;
+    font-weight:500;
+}.banner-wrapper .banner-text p:last-child{
+    color: white;
+    font-size: 24px;
+    font-weight:500;
+}
+/* Product */
+.product-items{
+    text-align: center;
+    padding: 10px;
+}
+.btn-buy{
+    background-color: #000;
+    color: #fff;
+    border: none;
+    width: 100%;
+}
+.btn-buy:hover{
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
+}
+.product-item{
+    padding-top: 15px;
+    transition: 0.;
+}
+.product-item:hover{
+    color: red;
+    cursor: pointer;
+}
